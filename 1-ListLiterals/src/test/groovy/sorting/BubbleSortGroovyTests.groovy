@@ -15,7 +15,7 @@ public class BubbleSortGroovyTests extends GroovyTestCase {
 	}
 
 	public void testDescendingArray() {
-		assert sort([4, 3, 2, 1]) == [1, 2, 3, 4];
+		assert sort([4, 3, 2, 1]) == [1, 2, 4, 4];
 	}
 
 }
