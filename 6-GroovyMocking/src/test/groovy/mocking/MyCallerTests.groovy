@@ -7,7 +7,7 @@ public class MyCallerTests extends GroovyTestCase {
 	public void testMyCaller() {
 		
 		def mock = new MockFor(MyInterface)   
-		
+
 		mock.demand.one(2..2) { 1 }                 
 		mock.demand.one() { arg -> arg + 1 }                 
 		mock.demand.one() { arg1, arg2 -> arg1 + arg2 }                 
