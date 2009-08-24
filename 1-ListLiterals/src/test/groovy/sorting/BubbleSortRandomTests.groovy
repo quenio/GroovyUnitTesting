@@ -21,7 +21,7 @@ public class BubbleSortRandomTests extends GroovyTestCase {
 		}
 
 		/*
-		def newArray = sortedArray + length+1 
+		def newArray = sortedArray + 0 
 		sortedArray.eachWithIndex { n, i -> println(i); assert n <= newArray[i+1] }
 		*/
 	}

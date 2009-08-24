@@ -14,7 +14,7 @@ public class FileExportGroovyTests extends GroovyTestCase {
 		Repository repository = new Repository(exporter as FileExporter)
 
 		def book1, book2
-		def books = [ book1 = new Book(title:"t1"), book2 = new Book(title:"t2") ]
+		def books = [ book1 = new Book(), book2 = new Book() ]
 
         repository.save(book1)
 		repository.save(book2)

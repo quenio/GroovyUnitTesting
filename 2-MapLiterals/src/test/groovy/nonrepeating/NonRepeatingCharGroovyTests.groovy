@@ -12,7 +12,8 @@ public class NonRepeatingCharGroovyTests extends GroovyTestCase {
 	    "aacbb": 'c',
 	    "cabba": 'c', 
 	    "abbac": 'c',
-	    "abcde": 'a'
+	    "abcde": 'a',
+	    //"abcde": 'b'
 	];
 	
 	public void testFindingNonRepeatingChar() {

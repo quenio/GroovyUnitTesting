@@ -19,6 +19,7 @@ public class NonRepeatingJavaTests extends TestCase {
  		cases.put("cabba", 'c');
  		cases.put("abbac", 'c');
  		cases.put("abcde", 'a');
+ 		//cases.put("abcde", 'b');
 	     	
  		for (String str: cases.keySet()) { 
  			assertEquals(cases.get(str).charValue(), NonRepeatingChar.find(str)); 

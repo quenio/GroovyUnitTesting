@@ -12,6 +12,7 @@ public class MyCallerTests extends GroovyTestCase {
 		mock.demand.one() { arg -> arg + 1 }                 
 		mock.demand.one() { arg1, arg2 -> arg1 + arg2 }                 
 		mock.demand.two(0..2) { 2 }                 
+		//mock.demand.two(1..2) { 2 }                 
 
 		def proxy = mock.proxyDelegateInstance()
 		def caller = new MyCaller(proxy) 
